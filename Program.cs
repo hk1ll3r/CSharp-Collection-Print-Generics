@@ -11,6 +11,11 @@ namespace printext
     {
         static void Main(string[] args)
         {
+var strList = new List<string>() {
+            "one", "two", "three"
+        };
+        Console.WriteLine(strList.ToStringExt());
+            /*
             // list
             Console.WriteLine("flat list");
             var strList = new List<string>() {"one", "two", "three"};
@@ -92,7 +97,7 @@ namespace printext
             Console.WriteLine("ToString: " + hashSet.ToString());
             Console.WriteLine("ToStringExt: " + hashSet.ToStringExt());
             Console.WriteLine("");
-
+*/
         }
     }
 }
